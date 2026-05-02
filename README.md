@@ -5,12 +5,13 @@ This project predicts valence which is a number that measures how positive or ne
 The two machine learning models which are built and compared here:
 
 **1. Random Forest (RF):** a classical model used as the baseline
+
 **2. LSTM:** a deep learning model used as the main model
 
 Both models are tested on the same data.
 
 
-## What This Project Does
+## What This Project Does 💡
 1. Loads three CSV files: train, validation, and test sets
 2. Cleans the data by replacing missing and infinite values
 3. Scales the features so all values are on the same range
@@ -20,7 +21,7 @@ Both models are tested on the same data.
 7. Plots the results as a bar chart
 
 
-## Results
+## Results ✅
 |     Model     |      MSE      |    RSME      |     MAE       |
 | ------------- | ------------- |------------- | ------------- |
 | RF (Baseline) |     0.0821    |    0.2866    |    0.2368     |
@@ -29,7 +30,7 @@ Both models are tested on the same data.
 The Random Forest performed better than the LSTM. This is common when the data has no time sequence, the LSTM loses its main advantage on static tabular features.
 
 
-## Learning
+## Learning 🧠
 **1. Data leakage:** the scaler must be fitted only on training data. Fitting it on test data gives falsely good results.
 
 **2. Always build a baseline first:** a simple model shows whether a complex model is actually needed.
@@ -41,7 +42,7 @@ The Random Forest performed better than the LSTM. This is common when the data h
 **5. PyTorch basics:** zero gradients → forward pass → compute loss → backpropagate → update weights.
 
 
-## Real-World Uses
+## Real-World Uses 🌍
 |             Area            |                  How It Helps                   |
 | --------------------------- | ----------------------------------------------- |
 |         Mental health       | Detects mood changes from facial or visual data |
