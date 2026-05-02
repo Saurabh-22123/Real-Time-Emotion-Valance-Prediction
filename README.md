@@ -1,4 +1,4 @@
-# Valence Regression — RF Baseline vs LSTM
+# Valence Regression:- RF Baseline vs LSTM
 
 ## Overview
 This project predicts valence which is a number that measures how positive or negative an emotion is, using visual features.
